@@ -25,3 +25,4 @@ Caso tenha adicionado o arquivo errado use o comando GIT RESET HEAD para desfaze
 O comando *GIT LOG --ONELINE* comando exibe uma versão reduzida das informações exibidas pelo *GIT STATUS*
 Esse comando informa o nome de todos os autores que fizeram o COMMIT
 
+Link do youtube de onde os comandos foram retirados: https://www.youtube.com/watch?v=_mB-TShMDvY
