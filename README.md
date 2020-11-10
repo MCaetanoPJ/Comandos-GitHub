@@ -28,13 +28,14 @@ Caso tenha adicionado o arquivo errado use o comando git RESET HEAD para desfaze
 # git push origin master
 Use esse comando para enviar sincronizar suas alterações com o servidor
 
+# git pull
+Use esse comando para atualizar os seus arquivos locais com a versão mais recente que está no servidor
+
 # git log ou git log --oneline
 6) Use o comando *git log* para verificar o histórico de commit realizados no reposítorio
 O comando *git log --oneline* comando exibe uma versão reduzida das informações exibidas pelo *git status*
 Esse comando informa o nome de todos os autores que fizeram o commit
 
-# git pull
-Use esse comando para atualizar os seus arquivos locais com a versão que está no servidor
-v
-
 Link do youtube de onde os comandos foram retirados: https://www.youtube.com/watch?v=_mB-TShMDvY
+
+Link de artigo: https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c#:~:text=You%20are%20ready%20to%20push,always%20exists%20on%20any%20repository.
