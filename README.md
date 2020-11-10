@@ -1,4 +1,4 @@
-# Comandos-GitHub
+# Comandos-GitHub e GitLab
 Resumos dos principais comandos do GitHub para gerenciar um projeto
 
 
