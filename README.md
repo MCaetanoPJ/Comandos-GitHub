@@ -22,8 +22,11 @@ Caso tenha adicionado o arquivo errado use o comando git RESET HEAD para desfaze
 
 4) Repita o comando *git status* para verificar se o arquivo foi preparado corretamente, o nome dos arquivos devem estar na cor verde
 
-# git commit -M "Comentario descrevendo a alteração"
+# git commit -m "Comentario descrevendo a alteração"
 5) Use esse comando para enviar os arquivos preparados para o reposítorio online com a mensagem que foi digitada no comando
+
+# git push origin master
+Use esse comando para enviar sincronizar suas alterações com o servidor
 
 # git log ou git log --oneline
 6) Use o comando *git log* para verificar o histórico de commit realizados no reposítorio
