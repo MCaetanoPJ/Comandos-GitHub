@@ -6,28 +6,28 @@ Resumos dos principais comandos do GitHub para gerenciar um projeto
 Dentro da pasta do projeto clique com o botão direito do mouse e inicie o "Git Bash"
 Obs: após digitar o comando pressione a tecla ENTER
 
-1) Use o comando *GIT INIT* para tornar essa pasta em um repositório local
+1) Use o comando *git init* para tornar essa pasta em um repositório local
 
-# Procedimento padrão para localizar o arquivo modificado e fazer o COMMIT no repositório online
+# Procedimento padrão para localizar o arquivo modificado e fazer o commit no repositório online
 
-# GIT STATUS
+# git status
 2) Use esse comando para verificar se algum novo arquivo foi criado ou modificado
 Caso exista, o nome do arquivo estará com a cor vermelha
 
-# GIT ADD * ou GIT ADD "nome_do_arquivo.txt"
+# git add * ou git add "nome_do_arquivo.txt"
 
-3) Use o comando *GIT ADD * para selecionar todos os arquivos criados ou modificado exibidos no comando acima e prepara-los para adicionar ao repositório online
-ou use o comando *GIT ADD "nome_do_arquivo.txt"* para selecionar um arquivo específico para preparar-lo
-Caso tenha adicionado o arquivo errado use o comando GIT RESET HEAD para desfazer anular o comando GIT ADD
+3) Use o comando git add * para selecionar todos os arquivos criados ou modificado exibidos no comando acima e prepara-los para adicionar ao repositório online
+ou use o comando git add "nome_do_arquivo.txt"* para selecionar um arquivo específico para preparar-lo
+Caso tenha adicionado o arquivo errado use o comando git RESET HEAD para desfazer anular o comando git add
 
-4) Repita o comando *GIT STATUS* para verificar se o arquivo foi preparado corretamente, o nome dos arquivos devem estar na cor verde
+4) Repita o comando *git status* para verificar se o arquivo foi preparado corretamente, o nome dos arquivos devem estar na cor verde
 
-# GIT COMMIT -M "Comentario descrevendo a alteração"
-5) Use o comando ** para enviar os arquivos preparados para o reposítorio online com a mensagem que foi digitada no comando
+# git commit -M "Comentario descrevendo a alteração"
+5) Use esse comando para enviar os arquivos preparados para o reposítorio online com a mensagem que foi digitada no comando
 
-# GIT LOG ou GIT LOG --ONELINE
-6) Use o comando *GIT LOG* para verificar o histórico de COMMIT realizados no reposítorio
-O comando *GIT LOG --ONELINE* comando exibe uma versão reduzida das informações exibidas pelo *GIT STATUS*
-Esse comando informa o nome de todos os autores que fizeram o COMMIT
+# git log ou git log --oneline
+6) Use o comando *git log* para verificar o histórico de commit realizados no reposítorio
+O comando *git log --oneline* comando exibe uma versão reduzida das informações exibidas pelo *git status*
+Esse comando informa o nome de todos os autores que fizeram o commit
 
 Link do youtube de onde os comandos foram retirados: https://www.youtube.com/watch?v=_mB-TShMDvY
