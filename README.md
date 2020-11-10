@@ -33,4 +33,8 @@ Use esse comando para enviar sincronizar suas alterações com o servidor
 O comando *git log --oneline* comando exibe uma versão reduzida das informações exibidas pelo *git status*
 Esse comando informa o nome de todos os autores que fizeram o commit
 
+# git pull
+Use esse comando para atualizar os seus arquivos locais com a versão que está no servidor
+v
+
 Link do youtube de onde os comandos foram retirados: https://www.youtube.com/watch?v=_mB-TShMDvY
