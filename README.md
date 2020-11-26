@@ -26,10 +26,13 @@ Caso tenha adicionado o arquivo errado use o comando git RESET HEAD para desfaze
 5) Use esse comando para enviar os arquivos preparados para o reposítorio online com a mensagem que foi digitada no comando
 
 # git push origin master
-Use esse comando para enviar sincronizar suas alterações com o servidor
+Use esse comando para enviar suas alterações para o servidor
 
 # git pull
 Use esse comando para atualizar os seus arquivos locais com a versão mais recente que está no servidor
+
+# git reset --hard
+Use esse comando quando o repositório local tiver alterações e você precise ignorar essas alterações para usar o git pull
 
 # git log ou git log --oneline
 6) Use o comando *git log* para verificar o histórico de commit realizados no reposítorio
