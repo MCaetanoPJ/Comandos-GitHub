@@ -6,7 +6,7 @@ Resumos dos principais comandos do GitHub para gerenciar um projeto
 Dentro da pasta do projeto clique com o botão direito do mouse e inicie o "Git Bash"
 Obs: após digitar o comando pressione a tecla ENTER
 
-# git config --global user.name nomeDoUsuario
+# git config --global user.name seu_usuario
 Use esse comando para configurar o gitHub com o seu usuário
 
 # git clone github.com/nome_repositorio.git
@@ -25,7 +25,7 @@ ou use o comando git add "nome_do_arquivo.txt"* para selecionar um arquivo espec
 Caso tenha adicionado o arquivo errado use o comando git RESET HEAD para desfazer anular o comando git add
 Repita o comando *git status* para verificar se o arquivo foi preparado corretamente, o nome dos arquivos devem estar na cor verde
 
-# git commit -m "Comentario descrevendo a alteração"
+# git commit -m "Comentario_descrevendo_a_alteração"
 Use esse comando para enviar os arquivos preparados para o reposítorio online com a mensagem que foi digitada no comando
 
 # git push origin master
